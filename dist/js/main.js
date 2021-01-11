@@ -1,1 +1,0 @@
-console.log("This is line 1 from file 1"),console.log("This is line 2 from file 1"),console.log("This is first line from file2");
