@@ -1,0 +1,8 @@
+# compiled output
+/dist
+# dependancies
+/node_module
+# system files
+.DS_Store
+# Gulp-Sample
+package-lock.json
