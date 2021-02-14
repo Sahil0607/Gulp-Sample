@@ -55,7 +55,7 @@ gulp.task('scripts', (done) => {
         .pipe(uglify())     // minify file
         .pipe(gulp.dest('dist/js'));
     done();
-})
+});
 // Default task
 gulp.task('run', gulp.series('message', 'CopyHtml', 'imageMin', 'scripts', 'sass'));
 // minifyJs is already use in concate so not use in gulp.series.
